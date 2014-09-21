@@ -165,7 +165,8 @@ Y.use('node', 'squarespace-gallery-ng' ,'squarespace-image-loader', function(Y) 
           if (aspectRatio === 0) {
             this.thumbnails && this.thumbnails.getImages().each(function(img) {
               img.setStyles({
-                top: null,
+                //top: null,
+                top: 0,
                 left: null
               });
             });
