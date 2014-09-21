@@ -10,7 +10,7 @@
 
 {squarespace-headers}
 </head>
-<body class="{squarespace.page-classes}" id="{squarespace.page-id}">
+<body id="{squarespace.page-id}" class="{collection.navigationTitle|slugify} {squarespace.page-classes}">
 
   <div id="canvasWrapper">
     <div id="canvas">
