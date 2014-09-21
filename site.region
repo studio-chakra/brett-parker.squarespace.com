@@ -94,6 +94,8 @@
 
       <div class="main-content" data-content-field="main-content">
         {squarespace.main-content}
+        <div class="main-bottom-left"><squarespace:block-field id="mainLeftBlocks" label="Main Bottom Left Content" /></div>
+        <div class="main-bottom-right"><squarespace:block-field id="mainRightBlocks" label="Main Bottom Right Content" /></div>
       </div>
 
       <aside id="sidebarWrapper">
